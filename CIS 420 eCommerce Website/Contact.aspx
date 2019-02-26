@@ -66,7 +66,7 @@
                         <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/SweetKarolinesCakesHome.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Shop" Value="Shop"></asp:MenuItem>
                         <asp:MenuItem Text="Gallery" Value="Gallery"></asp:MenuItem>
-                        <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/ContactPage.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/Contact.aspx"></asp:MenuItem>
                     </Items>
                     <StaticMenuItemStyle BackColor="White" BorderColor="White" Font-Bold="True" Font-Names="Forte" Font-Size="XX-Large" HorizontalPadding="35px" ForeColor="#33CCCC" />
                 </asp:Menu>
