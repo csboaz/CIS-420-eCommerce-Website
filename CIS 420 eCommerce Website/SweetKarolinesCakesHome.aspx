@@ -21,8 +21,8 @@
             height: 74px;
         }
         .auto-style7 {
-            width: 67px;
-            height: 84px;
+            width: 64px;
+            height: 87px;
         }
         .auto-style9 {
             width: 99%;
@@ -49,6 +49,8 @@
     
     </head>
 <body style = " height: 899px; width: 1505px; margin-left: 0px; margin-top: 0px;">
+   
+
     <form id="form1" runat="server">
     <table class="auto-style1">
         <tr style ="width: 1100px;height: 110px">
@@ -83,8 +85,55 @@
     <table class="auto-style9">
         <tr>
             <td class="auto-style12" style="background-color: #FF0000">
-                
-                <img class="auto-style13" src="Images/american%20girl%20cake.jpg" /></td>
+             <style>   
+            #sliderbox{
+            position: relative;
+            width:3200px; 
+            animation-name: slideranimation;
+            animation-duration: 10s; 
+            }
+        #sliderbox img{
+            float: left;
+        }
+@keyframes slideranimation{
+    0%{
+        left: 0px;
+    }
+    20% /* 4second */
+    {
+        left: 0px;
+    }
+    25% /* 5 second */
+    {
+        left: -800px;
+    }
+    45% /* 9 second */ {
+        left: -800px;
+    }
+    50% /* 10 second */
+    {
+        left: -1600px; 
+    }
+
+
+}
+    </style>
+    <div id="container">
+        <div id="sliderbox">
+            <img src="image/birthdaycake.jpg"/>
+            <img src="image/camouflagecake.jpg"/>
+            <img src="image/dolphincake.jpg"/>
+            <img src="image/Grasscake.jpg"/>
+            <img src="image/ladybugcupcakes.jpg"/>
+            <img src="image/legocake.jpg"/>
+            <img src="image/mermaidcake.jpg"/>
+            <img src="image/pandacake.jpg"/>
+            <img src="image/pinkcake.jpg"/>
+            <img src="image/pinkcupcakes.jpg"/>
+            <img src="image/popcorncake.jpg"/>
+            <img src="image/rainbowcake.jpg"/>
+        </div>
+      </div> 
 
         </tr>
     </table>
