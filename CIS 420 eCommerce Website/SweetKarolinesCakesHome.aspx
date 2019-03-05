@@ -40,11 +40,6 @@
         .auto-style12 {
             height: 398px;
         }
-        .auto-style13 {
-            width: 1245px;
-            height: 609px;
-            margin-left: 100px;
-        }
         </style>
     
     </head>
@@ -88,7 +83,7 @@
              <style>   
             #sliderbox{
             position: relative;
-            width:3200px; 
+            width:400px; 
             animation-name: slideranimation;
             animation-duration: 10s; 
             }
@@ -117,21 +112,26 @@
 
 
 }
+                 .auto-style14 {
+                     width: 395px;
+                     height: 298px;
+                     margin-right: 0px;
+                 }
     </style>
     <div id="container">
         <div id="sliderbox">
-            <img src="image/birthdaycake.jpg"/>
-            <img src="image/camouflagecake.jpg"/>
-            <img src="image/dolphincake.jpg"/>
-            <img src="image/Grasscake.jpg"/>
-            <img src="image/ladybugcupcakes.jpg"/>
-            <img src="image/legocake.jpg"/>
-            <img src="image/mermaidcake.jpg"/>
-            <img src="image/pandacake.jpg"/>
-            <img src="image/pinkcake.jpg"/>
-            <img src="image/pinkcupcakes.jpg"/>
-            <img src="image/popcorncake.jpg"/>
-            <img src="image/rainbowcake.jpg"/>
+            <img src="Images/birthdaycake.jpg" class="auto-style14"/>
+            <img src="Images/camouflagecake.jpg" class="auto-style14"/>
+            <img src="Images/dolphincake.jpg" class="auto-style14"/>
+            <img src="Images/Grasscake.jpg" class="auto-style14"/>
+            <img src="Images/ladybugcupcakes.jpg" class="auto-style14"/>
+            <img src="Images/legocake.jpg" class="auto-style14"/>
+            <img src="Images/mermaidcake.jpg" class="auto-style14"/>
+            <img src="Images/pandacake.jpg" class="auto-style14"/>
+            <img src="Images/pinkcake.jpg" class="auto-style14"/>
+            <img src="Images/pinkcupcakes.jpg" class="auto-style14"/>
+            <img src="Images/popcorncake.jpg" class="auto-style14"/>
+            <img src="Images/rainbowcake.jpg" class="auto-style14"/>
         </div>
       </div> 
 
