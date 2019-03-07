@@ -40,11 +40,6 @@
         .auto-style12 {
             height: 398px;
         }
-        .auto-style13 {
-            width: 1245px;
-            height: 609px;
-            margin-left: 100px;
-        }
         </style>
     
     </head>
@@ -54,13 +49,13 @@
     <form id="form1" runat="server">
     <table class="auto-style1">
         <tr style ="width: 1100px;height: 110px">
-            <td class="auto-style10" style="font-size: 65px; color: #33CCCC; font-family: Forte; background-color: white;">
+            <td class="auto-style10" style="font-size: 65px; color: #33CCCC; font-family: Forte; background-color: #FFFFFF;">
                 Sweet Karoline&#39;s Cakes</td>
 
-            <td style ="color: #009999; background-color: white;" class="auto-style2">
+            <td style ="color: #009999; background-color: #FFFFFF;" class="auto-style2">
 
                 
-                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" BackColor="#999999">
                     <Items>
                         <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/SweetKarolinesCakesHome.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Shop" Value="Shop"></asp:MenuItem>
@@ -68,12 +63,13 @@
                         <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/Contact.aspx"></asp:MenuItem>
                     </Items>
                     <StaticMenuItemStyle BackColor="White" BorderColor="White" Font-Bold="True" Font-Names="Forte" Font-Size="XX-Large" HorizontalPadding="35px" ForeColor="#33CCCC" />
+                    <StaticMenuStyle BackColor="#999999" />
                 </asp:Menu>
 
                 
             </td>
             
-            <td style ="background-color: white;" class="auto-style11">
+            <td style ="background-color: #FFFFFF;" class="auto-style11">
                 <img class="auto-style6" src="Images/magnifier-1724298_1280.png" />&nbsp;
                 <img class="auto-style7" src="Images/account%20icon.jpg" />
                 <img alt="" class="auto-style6" src="Images/cart%20symbol-2485366_640.png" /></td>
@@ -84,13 +80,16 @@
     </form>
     <table class="auto-style9">
         <tr>
-            <td class="auto-style12" style="background-color: #FF0000">
-             <style>   
+            <td class="auto-style12" style="background-color: white">
+             <style>
+
             #sliderbox{
             position: relative;
-            width:3200px; 
+            width:1500px; 
             animation-name: slideranimation;
-            animation-duration: 10s; 
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+
             }
         #sliderbox img{
             float: left;
@@ -117,24 +116,39 @@
 
 
 }
-    </style>
-    <div id="container">
-        <div id="sliderbox">
-            <img src="image/birthdaycake.jpg"/>
-            <img src="image/camouflagecake.jpg"/>
-            <img src="image/dolphincake.jpg"/>
-            <img src="image/Grasscake.jpg"/>
-            <img src="image/ladybugcupcakes.jpg"/>
-            <img src="image/legocake.jpg"/>
-            <img src="image/mermaidcake.jpg"/>
-            <img src="image/pandacake.jpg"/>
-            <img src="image/pinkcake.jpg"/>
-            <img src="image/pinkcupcakes.jpg"/>
-            <img src="image/popcorncake.jpg"/>
-            <img src="image/rainbowcake.jpg"/>
+                 .auto-style16 {
+                     width: 1500px;
+                 }
+                 .auto-style17 {
+                     left: 0px;
+                     top: 0px;
+                     width: 1434px;
+                 }
+                 .auto-style18 {
+                     width: 250px;
+                     height: 287px;
+                 }
+                 }
+                 .auto-style13 {
+                     width: 256px;
+                     height: 241px;
+                 }
+                 .auto-style14 {
+                     width: 358px;
+                     height: 236px;
+                 }
+                 .auto-style15 {
+                     width: 620px;
+                 }
+                 </style>
+    <div id="container" class="auto-style16">
+        <div id="sliderbox" class="auto-style15">
+            <img alt="" class="auto-style13" src="Slider/legocake.jpg" />
+            
+            <img alt="" class="auto-style14" src="Slider/ladybugcupcakes.jpg" />
         </div>
+   
       </div> 
-
         </tr>
     </table>
 </body>
