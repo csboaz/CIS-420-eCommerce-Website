@@ -87,15 +87,15 @@
         </tr>
         </table>
     </form>
-    <table class="auto-style9" style="background-color: white">
+    <table class="auto-style9" style="background-color: #33CCCC">
         <tr>
-            <td class="auto-style12" style="background-color: #33CCCC">
+            <td class="auto-style12" style="background-color: #FF00FF">
 
             </td>
-            <td class="auto-style13" style="background-color: #33CCCC; font-size: x-large; font-family: 'Gill Sans MT';">
+            <td class="auto-style13" style="background-color: #FF00FF; font-size: x-large; font-family: Forte; font-weight: bolder; color: #FFFFFF;">
                 
                 About Us</td>
-            <td class="auto-style12" style="background-color: #33CCCC; font-family: 'Gill Sans MT'; font-size: x-large;">
+            <td class="auto-style12" style="background-color: #FF00FF; font-family: Forte; font-size: x-large; font-weight: bolder; color: #FFFFFF;">
 
                 Contact Us</td>
         </tr>
@@ -104,10 +104,10 @@
             <td style="background-color: white" class="auto-style10">
 
                 <img alt="" class="auto-style15" src="Images/life-is-what-you-bake-it-tv.jpg" style="background-color: #33CCCC" /></td>
-            <td style="background-color: #33CCCC; font-family: 'Gill Sans MT';" class="auto-style11">
+            <td style="background-color: #FFFFFF; font-family: 'Gill Sans MT'; font-size: medium; font-weight: bolder; color: #CC00CC;" class="auto-style11">
                 
                 Sweet Karoline&#39;s Cakes is a locally owned and operated homemade cake shop in Louisville, KY. We make cakes, cupcakes, and other assorted desserts for all occasions and can even make gluten/dairy-free treats! We would be ecstatic to hear from you and answer any questions you may have! </td>
-        <td style="background-color: #33CCCC; font-family: 'Gill Sans MT'; font-size: medium;">
+        <td style="background-color: #FFFFFF; font-family: 'Gill Sans MT'; font-size: medium; font-weight: bolder; color: #CC00CC;">
 
             Phone: (502) 417-8179<br />
             <br />

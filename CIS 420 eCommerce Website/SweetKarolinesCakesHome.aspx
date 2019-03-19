@@ -79,7 +79,7 @@
     </form>
     <table class="auto-style9">
         <tr>
-            <td class="auto-style12" style="background-color: #FF0000">
+            <td class="auto-style12" style="background-color: #33CCCC">
              <style>   
             #sliderbox{
             position: relative;
