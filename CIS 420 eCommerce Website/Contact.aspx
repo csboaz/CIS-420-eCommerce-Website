@@ -7,14 +7,16 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            height: 230px;
+            height: 265px;
             width: 1500px;
         }
         .auto-style2 {
             width: 2188px;
+            height: 110px;
         }
         .auto-style3 {
-            width: 926px;
+            width: 924px;
+            height: 110px;
         }
         .auto-style6 {
             width: 60px;
@@ -27,9 +29,10 @@
         }
         .auto-style8 {
             width: 500px;
+            height: 110px;
         }
         .auto-style9 {
-            height: 325px;
+            height: 353px;
             width: 1500px;
             margin-top: 0px;
         }
@@ -40,28 +43,33 @@
             width: 764px;
         }
         .auto-style12 {
-            height: 77px;
+            height: 62px;
         }
         .auto-style13 {
-            height: 77px;
+            height: 62px;
             width: 764px;
         }
         .auto-style14 {
             width: 60px;
             height: 68px;
         }
+        .auto-style15 {
+            width: 383px;
+            height: 301px;
+            margin-top: 0px;
+        }
     </style>
 </head>
-<body style = "height: 625px; margin-right: 0px; width: 1500px; margin-left: 0px; margin-top: 0px;">
-    <form id="form1" runat="server" class="auto-style7">
+<body style = "height: 625px; margin-right: 0px; width: 1500px; margin-left: 0px; margin-top: 0px; background-color: #33CCCC; ">
+    <form id="form1" runat="server" class="auto-style7" style="background-color: #33CCCC">
             <table class="auto-style1">
-        <tr style ="width: 1100px;height: 110px">
-            <td class="auto-style3" style="font-size: 65px; color: #33CCCC; font-family: Forte; background-color: white;">
+        <tr style ="width: 1100px;">
+            <td class="auto-style3" style="font-size: 65px; color: #CC00CC; font-family: Forte; background-color: #33CCCC;">
                 Sweet Karoline&#39;s Cakes</td>
 
-            <td style ="color: #009999; background-color: white;" class="auto-style2">
+            <td style ="color: #CC00CC; background-color: #33CCCC;" class="auto-style2">
 
-                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" BackColor="#33CCCC" BorderColor="#33CCCC" ForeColor="#CC00CC" OnMenuItemClick="Menu1_MenuItemClick">
                     <Items>
                         <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/SweetKarolinesCakesHome.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Shop" Value="Shop"></asp:MenuItem>
@@ -72,7 +80,7 @@
                 </asp:Menu>
                 </td>
 
-            <td style ="background-color: white;" class="auto-style8">
+            <td style ="background-color: #33CCCC;" class="auto-style8">
                 <img class="auto-style14" src="Images/magnifier-1724298_1280.png" />&nbsp;
                 <img class="auto-style6" src="Images/account%20icon.jpg" />
                 <img alt="" class="auto-style14" src="Images/cart%20symbol-2485366_640.png" /></td>
@@ -81,13 +89,13 @@
     </form>
     <table class="auto-style9" style="background-color: white">
         <tr>
-            <td class="auto-style12" style="background-color: #FFFFFF">
+            <td class="auto-style12" style="background-color: #33CCCC">
 
             </td>
-            <td class="auto-style13" style="background-color: #FFFFFF; font-size: x-large; font-family: 'Gill Sans MT';">
+            <td class="auto-style13" style="background-color: #33CCCC; font-size: x-large; font-family: 'Gill Sans MT';">
                 
                 About Us</td>
-            <td class="auto-style12" style="background-color: #FFFFFF; font-family: 'Gill Sans MT'; font-size: x-large;">
+            <td class="auto-style12" style="background-color: #33CCCC; font-family: 'Gill Sans MT'; font-size: x-large;">
 
                 Contact Us</td>
         </tr>
@@ -95,11 +103,11 @@
             
             <td style="background-color: white" class="auto-style10">
 
-                *Insert Picture of Karoline*</td>
-            <td style="background-color: white; font-family: 'Gill Sans MT';" class="auto-style11">
+                <img alt="" class="auto-style15" src="Images/life-is-what-you-bake-it-tv.jpg" style="background-color: #33CCCC" /></td>
+            <td style="background-color: #33CCCC; font-family: 'Gill Sans MT';" class="auto-style11">
                 
                 Sweet Karoline&#39;s Cakes is a locally owned and operated homemade cake shop in Louisville, KY. We make cakes, cupcakes, and other assorted desserts for all occasions and can even make gluten/dairy-free treats! We would be ecstatic to hear from you and answer any questions you may have! </td>
-        <td style="background-color: white; font-family: 'Gill Sans MT'; font-size: medium;">
+        <td style="background-color: #33CCCC; font-family: 'Gill Sans MT'; font-size: medium;">
 
             Phone: (502) 417-8179<br />
             <br />

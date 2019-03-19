@@ -46,13 +46,13 @@
 <body style = " height: 899px; width: 1505px; margin-left: 0px; margin-top: 0px;">
    
 
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" style="background-color: #33CCCC">
     <table class="auto-style1">
         <tr style ="width: 1100px;height: 110px">
-            <td class="auto-style10" style="font-size: 65px; color: #33CCCC; font-family: Forte; background-color: white;">
+            <td class="auto-style10" style="font-size: 65px; color: #CC00CC; font-family: Forte; background-color: #33CCCC;">
                 Sweet Karoline&#39;s Cakes</td>
 
-            <td style ="color: #009999; background-color: white;" class="auto-style2">
+            <td style ="color: #009999; background-color: #33CCCC;" class="auto-style2">
 
                 
                 <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
@@ -68,7 +68,7 @@
                 
             </td>
             
-            <td style ="background-color: white;" class="auto-style11">
+            <td style ="background-color: #33CCCC;" class="auto-style11">
                 <img class="auto-style6" src="Images/magnifier-1724298_1280.png" />&nbsp;
                 <img class="auto-style7" src="Images/account%20icon.jpg" />
                 <img alt="" class="auto-style6" src="Images/cart%20symbol-2485366_640.png" /></td>
@@ -118,7 +118,7 @@
                      margin-right: 0px;
                  }
     </style>
-    <div id="container">
+    <div id="container" style="background-color: #33CCCC">
         <div id="sliderbox">
             <img src="Images/birthdaycake.jpg" class="auto-style14"/>
             <img src="Images/camouflagecake.jpg" class="auto-style14"/>
