@@ -7,6 +7,44 @@
     <title>
     </title>
     <style type="text/css">
+        #nav
+        {
+            margin: 0px;
+        }
+        #nav ul
+        {
+            padding: 0;
+            list-style: none;
+        }
+        #nav ul li
+        {
+            float: left;
+            text-align: center;
+            width: 150px;
+            margin: 1px;
+        }
+        #nav ul li a
+        {
+            color: #CC00CC;
+            text-decoration: none;
+            font-family: Forte;
+            background: #33CCCC;
+            display: block;
+            padding: 10px;
+        }
+        #nav ul li a:hover
+        {
+            background: #CC00CC;
+            color: white;
+        }
+        #nav ul li ul
+        {
+            display:none;
+        }
+        #nav ul li:hover ul
+        {
+            display:block;
+        }
         .auto-style1 {
             width: 1500px;
             height: 225px;
@@ -54,16 +92,22 @@
 
             <td style ="color: #009999; background-color: white;" class="auto-style2">
 
-                
-                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
-                    <Items>
-                        <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/SweetKarolinesCakesHome.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Shop" Value="Shop"></asp:MenuItem>
-                        <asp:MenuItem Text="Gallery" Value="Gallery"></asp:MenuItem>
-                        <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/Contact.aspx"></asp:MenuItem>
-                    </Items>
-                    <StaticMenuItemStyle BackColor="White" BorderColor="White" Font-Bold="True" Font-Names="Forte" Font-Size="XX-Large" HorizontalPadding="35px" ForeColor="#33CCCC" />
-                </asp:Menu>
+            <div id="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a>
+                        <ul>
+                            <li><a href="#">Cakes</a></li>
+                            <li><a href="#">Cupcakes</a></li>
+                            <li><a href="#">Treats</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+
+            </div>    
+
 
                 
             </td>
