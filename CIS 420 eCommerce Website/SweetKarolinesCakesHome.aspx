@@ -92,22 +92,16 @@
 
             <td style ="color: #009999; background-color: #33CCCC;" class="auto-style2">
 
-            <div id="nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a>
-                        <ul>
-                            <li><a href="#">Cakes</a></li>
-                            <li><a href="#">Cupcakes</a></li>
-                            <li><a href="#">Treats</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-
-            </div>    
-
+                
+                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/SweetKarolinesCakesHome.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Shop" Value="Shop"></asp:MenuItem>
+                        <asp:MenuItem Text="Gallery" Value="Gallery"></asp:MenuItem>
+                        <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/Contact.aspx"></asp:MenuItem>
+                    </Items>
+                    <StaticMenuItemStyle BackColor="White" BorderColor="White" Font-Bold="True" Font-Names="Forte" Font-Size="XX-Large" HorizontalPadding="35px" ForeColor="#33CCCC" />
+                </asp:Menu>
 
                 
             </td>
