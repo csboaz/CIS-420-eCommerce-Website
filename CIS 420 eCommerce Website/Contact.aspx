@@ -33,11 +33,11 @@
         }
         .auto-style9 {
             height: 353px;
-            width: 1500px;
+            width: 1502px;
             margin-top: 0px;
         }
         .auto-style10 {
-            width: 353px;
+            width: 321px;
         }
         .auto-style11 {
             width: 764px;
@@ -58,29 +58,33 @@
             height: 301px;
             margin-top: 0px;
         }
+        .auto-style16 {
+            height: 62px;
+            width: 321px;
+        }
     </style>
 </head>
-<body style = "height: 625px; margin-right: 0px; width: 1500px; margin-left: 0px; margin-top: 0px; background-color: #33CCCC; ">
-    <form id="form1" runat="server" class="auto-style7" style="background-color: #33CCCC">
+<body style = "height: 625px; margin-right: 0px; width: 1500px; margin-left: 0px; margin-top: 0px; background-color: #FFFFFF; ">
+    <form id="form1" runat="server" class="auto-style7" style="background-color: #FFFFFF">
             <table class="auto-style1">
         <tr style ="width: 1100px;">
-            <td class="auto-style3" style="font-size: 65px; color: #CC00CC; font-family: Forte; background-color: #33CCCC;">
+            <td class="auto-style3" style="font-size: 65px; color: #CC00CC; font-family: Forte; background-color: #FFFFFF;">
                 Sweet Karoline&#39;s Cakes</td>
 
-            <td style ="color: #CC00CC; background-color: #33CCCC;" class="auto-style2">
+            <td style ="color: #CC00CC; background-color: #FFFFFF;" class="auto-style2">
 
-                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" BackColor="#33CCCC" BorderColor="#33CCCC" ForeColor="#CC00CC" OnMenuItemClick="Menu1_MenuItemClick">
+                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" BackColor="#FFFFFF" BorderColor="#FFFFFF" ForeColor="#CC00CC" OnMenuItemClick="Menu1_MenuItemClick">
                     <Items>
                         <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/SweetKarolinesCakesHome.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Shop" Value="Shop"></asp:MenuItem>
-                        <asp:MenuItem Text="Gallery" Value="Gallery"></asp:MenuItem>
+                        <asp:MenuItem Text="Gallery" Value="Gallery" NavigateUrl="~/Gallery.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/Contact.aspx"></asp:MenuItem>
                     </Items>
                     <StaticMenuItemStyle BackColor="White" BorderColor="White" Font-Bold="True" Font-Names="Forte" Font-Size="XX-Large" HorizontalPadding="35px" ForeColor="#33CCCC" />
                 </asp:Menu>
                 </td>
 
-            <td style ="background-color: #33CCCC;" class="auto-style8">
+            <td style ="background-color: #FFFFFF;" class="auto-style8">
                 <img class="auto-style14" src="Images/magnifier-1724298_1280.png" />&nbsp;
                 <img class="auto-style6" src="Images/account%20icon.jpg" />
                 <img alt="" class="auto-style14" src="Images/cart%20symbol-2485366_640.png" /></td>
@@ -89,7 +93,7 @@
     </form>
     <table class="auto-style9" style="background-color: #33CCCC">
         <tr>
-            <td class="auto-style12" style="background-color: #FF00FF">
+            <td class="auto-style16" style="background-color: #FF00FF">
 
             </td>
             <td class="auto-style13" style="background-color: #FF00FF; font-size: x-large; font-family: Forte; font-weight: bolder; color: #FFFFFF;">
@@ -104,10 +108,10 @@
             <td style="background-color: white" class="auto-style10">
 
                 <img alt="" class="auto-style15" src="Images/life-is-what-you-bake-it-tv.jpg" style="background-color: #33CCCC" /></td>
-            <td style="background-color: #FFFFFF; font-family: 'Gill Sans MT'; font-size: medium; font-weight: bolder; color: #CC00CC;" class="auto-style11">
+            <td style="background-color: #33CCCC; font-family: 'Gill Sans MT'; font-size: medium; font-weight: bolder; color: #CC00CC;" class="auto-style11">
                 
                 Sweet Karoline&#39;s Cakes is a locally owned and operated homemade cake shop in Louisville, KY. We make cakes, cupcakes, and other assorted desserts for all occasions and can even make gluten/dairy-free treats! We would be ecstatic to hear from you and answer any questions you may have! </td>
-        <td style="background-color: #FFFFFF; font-family: 'Gill Sans MT'; font-size: medium; font-weight: bolder; color: #CC00CC;">
+        <td style="background-color: #33CCCC; font-family: 'Gill Sans MT'; font-size: medium; font-weight: bolder; color: #CC00CC;">
 
             Phone: (502) 417-8179<br />
             <br />
