@@ -28,6 +28,7 @@
             color: #CC00CC;
             text-decoration: none;
             font-family: Forte;
+            font-size: 2em;
             background: #33CCCC;
             display: block;
             padding: 10px;
@@ -40,6 +41,7 @@
         #nav ul li ul
         {
             display:none;
+            position: fixed;
         }
         #nav ul li:hover ul
         {
