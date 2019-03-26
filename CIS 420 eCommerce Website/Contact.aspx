@@ -6,6 +6,46 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
+        #nav
+        {
+            margin: 0px;
+        }
+        #nav ul
+        {
+            padding: 0;
+            list-style: none;
+        }
+        #nav ul li
+        {
+            float: left;
+            text-align: center;
+            width: 150px;
+            margin: 1px;
+        }
+        #nav ul li a
+        {
+            color: #33CCCC;
+            text-decoration: none;
+            font-family: Forte;
+            font-size: 2em;
+            background: white;
+            display: block;
+            padding: 10px;
+        }
+        #nav ul li a:hover
+        {
+            background: white;
+            color: #CC00CC;
+        }
+        #nav ul li ul
+        {
+            display:none;
+        }
+        #nav ul li:hover ul
+        {
+            display:block;
+            position: fixed;
+        }
         .auto-style1 {
             height: 265px;
             width: 1500px;
@@ -73,16 +113,22 @@
 
             <td style ="color: #CC00CC; background-color: #FFFFFF;" class="auto-style2">
 
-                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" BackColor="#FFFFFF" BorderColor="#FFFFFF" ForeColor="#CC00CC" OnMenuItemClick="Menu1_MenuItemClick">
-                    <Items>
-                        <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/SweetKarolinesCakesHome.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Shop" Value="Shop"></asp:MenuItem>
-                        <asp:MenuItem Text="Gallery" Value="Gallery" NavigateUrl="~/Gallery.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/Contact.aspx"></asp:MenuItem>
-                    </Items>
-                    <StaticMenuItemStyle BackColor="White" BorderColor="White" Font-Bold="True" Font-Names="Forte" Font-Size="XX-Large" HorizontalPadding="35px" ForeColor="#33CCCC" />
-                </asp:Menu>
-                </td>
+                <div id="nav">
+                    <ul>
+                        <li><a href="SweetKarolinesCakesHome.aspx">Home</a></li>
+                        <li><a href="#">Shop</a>
+                            <ul>
+                                <li><a href="#">Cakes</a></li>
+                                <li><a href="#">Cupcakes</a></li>
+                                <li><a href="#">Treats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="Contact.aspx">About</a></li>
+                    </ul>
+                </div>
+
+            </td>
 
             <td style ="background-color: #FFFFFF;" class="auto-style8">
                 <img class="auto-style14" src="Images/magnifier-1724298_1280.png" />&nbsp;

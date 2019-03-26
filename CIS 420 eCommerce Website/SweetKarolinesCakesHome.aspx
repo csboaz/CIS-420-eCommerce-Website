@@ -25,27 +25,27 @@
         }
         #nav ul li a
         {
-            color: #CC00CC;
+            color: #33CCCC;
             text-decoration: none;
             font-family: Forte;
             font-size: 2em;
-            background: #33CCCC;
+            background: white;
             display: block;
             padding: 10px;
         }
         #nav ul li a:hover
         {
-            background: #CC00CC;
-            color: white;
+            background: white;
+            color: #CC00CC;
         }
         #nav ul li ul
         {
             display:none;
-            position: fixed;
         }
         #nav ul li:hover ul
         {
             display:block;
+            position: fixed;
         }
         .auto-style1 {
             width: 1500px;
@@ -95,15 +95,20 @@
             <td style ="color: #FFFFFF; background-color: #FFFFFF;" class="auto-style2">
 
                 
-                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
-                    <Items>
-                        <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/SweetKarolinesCakesHome.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Shop" Value="Shop"></asp:MenuItem>
-                        <asp:MenuItem Text="Gallery" Value="Gallery" NavigateUrl="~/Gallery.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/Contact.aspx"></asp:MenuItem>
-                    </Items>
-                    <StaticMenuItemStyle BackColor="White" BorderColor="White" Font-Bold="True" Font-Names="Forte" Font-Size="XX-Large" HorizontalPadding="35px" ForeColor="#33CCCC" />
-                </asp:Menu>
+                <div id="nav">
+                    <ul>
+                        <li><a href="SweetKarolinesCakesHome.aspx">Home</a></li>
+                        <li><a href="#">Shop</a>
+                            <ul>
+                                <li><a href="#">Cakes</a></li>
+                                <li><a href="#">Cupcakes</a></li>
+                                <li><a href="#">Treats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="Contact.aspx">About</a></li>
+                    </ul>
+                </div>
 
                 
             </td>
