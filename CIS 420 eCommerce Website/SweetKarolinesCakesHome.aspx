@@ -49,7 +49,7 @@
         }
         .auto-style1 {
             width: 1500px;
-            height: 225px;
+            height: 215px;
             margin-top: 0px;
         }
         .auto-style2 {
@@ -80,16 +80,29 @@
         .auto-style12 {
             height: 398px;
         }
+        #footer {
+	        background-color: #CC00CC;
+	        margin: 0;
+	        padding: 0;
+	        width: 1500px;
+        }
+        #footer div {
+	        margin: 0 auto;
+	        max-width: 1500px;
+	        overflow: hidden;
+	        padding: 25px 0 25px;
+        }
+
         </style>
     
     </head>
-<body style = " height: 899px; width: 1505px; margin-left: 0px; margin-top: 0px;">
+<body style = " height: 849px; width: 1505px; margin-left: 0px; margin-top: 0px;">
    
 
     <form id="form1" runat="server" style="background-color: #FFFFFF">
     <table class="auto-style1">
         <tr style ="width: 1100px;height: 110px">
-            <td class="auto-style10" style="font-size: 65px; color: #CC00CC; font-family: Forte; background-color: #FFFFFF;">
+            <td class="auto-style10" style="font-size: 65px; color: #CC00CC; font-family: Forte; background-color: white;">
                 Sweet Karoline&#39;s Cakes</td>
 
             <td style ="color: #FFFFFF; background-color: #FFFFFF;" class="auto-style2">
@@ -102,7 +115,6 @@
                             <ul>
                                 <li><a href="#">Cakes</a></li>
                                 <li><a href="#">Cupcakes</a></li>
-                                <li><a href="#">Treats</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Gallery</a></li>
@@ -161,27 +173,59 @@
                      height: 298px;
                      margin-right: 0px;
                  }
-    </style>
+                 .auto-style15 {
+                     width: 86px;
+                     height: 80px;
+                     margin-left: 9px;
+                     margin-top: 0px;
+                 }
+                 .auto-style16 {
+                     width: 90px;
+                     height: 80px;
+                     margin-left: 666px;
+                 }
+                 .auto-style17 {
+                     width: 86px;
+                     height: 80px;
+                     margin-left: 4px;
+                 }
+                 .auto-style18 {
+                     width: 1500px;
+                     height: 175px;
+                     margin-top: 0px;
+                     margin-bottom: 0px;
+                 }
+                 .auto-style19 {
+                     width: 100%;
+                     height: 180px;
+                 }
+                 </style>
     <div id="container" style="background-color: #FFFFFF">
         <div id="sliderbox">
             <img src="Images/birthdaycake.jpg" class="auto-style14"/>
             <img src="Images/camouflagecake.jpg" class="auto-style14"/>
-            <img src="Images/dolphincake.jpg" class="auto-style14"/>
-            <img src="Images/Grasscake.jpg" class="auto-style14"/>
-            <img src="Images/ladybugcupcakes.jpg" class="auto-style14"/>
-            <img src="Images/legocake.jpg" class="auto-style14"/>
-            <img src="Images/mermaidcake.jpg" class="auto-style14"/>
-            <img src="Images/pandacake.jpg" class="auto-style14"/>
-            <img src="Images/pinkcake.jpg" class="auto-style14"/>
-            <img src="Images/pinkcupcakes.jpg" class="auto-style14"/>
-            <img src="Images/popcorncake.jpg" class="auto-style14"/>
-            <img src="Images/rainbowcake.jpg" class="auto-style14"/>
         </div>
       </div> 
 
         </tr>
     </table>
-        
+        <table class="auto-style18">
+            <tr style ="width: 1500px">
+                <td>
+            <div id="footer" class="auto-style19">
+			<div>
+				<div class="auto-style20">
+					<a href="https://www.facebook.com/" class="facebook">
+                        <img src="Images/facebook-2170419_640.png" class="auto-style16" /></a>
+					<a href="https://www.instagram.com" class="instagram">
+                        <img src="Images/instagram-2170420_640.png" class="auto-style15" /></a>&nbsp;
+                    <a href="https://www.twitter.com" class="twitter">
+                        <img src="Images/twitter-2170426_640.png" class="auto-style17" /></a></div>
+			</div>
+		</div>
+                </td>
+           </tr>
+        </table>
     
     </form>
     </body>
