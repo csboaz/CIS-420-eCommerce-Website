@@ -46,8 +46,20 @@
             display:block;
             position: fixed;
         }
+        #footer {
+	        background-color: #CC00CC;
+	        margin: 0;
+	        padding: 0;
+	        width: 1500px;
+        }
+        #footer div {
+	        margin: 0 auto;
+	        max-width: 1500px;
+	        overflow: hidden;
+	        padding: 25px 0 25px;
+        }
         .auto-style1 {
-            height: 265px;
+            height: 233px;
             width: 1500px;
         }
         .auto-style2 {
@@ -63,7 +75,7 @@
             height: 78px;
         }
         .auto-style7 {
-            height: 245px;
+            height: 215px;
             width: 1500px;
             margin-left: 0px;
         }
@@ -102,6 +114,38 @@
             height: 62px;
             width: 321px;
         }
+        .auto-style17 {
+                     width: 86px;
+                     height: 80px;
+                     margin-left: 9px;
+                     margin-top: 0px;
+                 }
+                 .auto-style18 {
+                     width: 90px;
+                     height: 80px;
+                     margin-left: 666px;
+                 }
+                 .auto-style19 {
+                     width: 86px;
+                     height: 80px;
+                     margin-left: 4px;
+                 }
+                 .auto-style20 {
+                     width: 1500px;
+                     height: 175px;
+                     margin-top: 0px;
+                     margin-bottom: 0px;
+                 }
+                 .auto-style21 {
+                     width: 100%;
+                     height: 180px;
+                 }
+        .auto-style22 {
+            width: 1500px;
+            height: 105px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
     </style>
 </head>
 <body style = "height: 625px; margin-right: 0px; width: 1500px; margin-left: 0px; margin-top: 0px; background-color: #FFFFFF; ">
@@ -123,7 +167,7 @@
                                 <li><a href="#">Treats</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Blog</a></li>
                         <li><a href="Contact.aspx">About</a></li>
                     </ul>
                 </div>
@@ -137,7 +181,7 @@
         </tr>
         </table>
     </form>
-    <table class="auto-style9" style="background-color: #33CCCC">
+    <table class="auto-style9" style="background-color: #FFFFFF">
         <tr>
             <td class="auto-style16" style="background-color: #FF00FF">
 
@@ -154,10 +198,10 @@
             <td style="background-color: white" class="auto-style10">
 
                 <img alt="" class="auto-style15" src="Images/life-is-what-you-bake-it-tv.jpg" style="background-color: #33CCCC" /></td>
-            <td style="background-color: #33CCCC; font-family: 'Gill Sans MT'; font-size: medium; font-weight: bolder; color: #CC00CC;" class="auto-style11">
+            <td style="background-color: #FFFFFF; font-family: 'Gill Sans MT'; font-size: medium; font-weight: bolder; color: #CC00CC;" class="auto-style11">
                 
                 Sweet Karoline&#39;s Cakes is a locally owned and operated homemade cake shop in Louisville, KY. We make cakes, cupcakes, and other assorted desserts for all occasions and can even make gluten/dairy-free treats! We would be ecstatic to hear from you and answer any questions you may have! </td>
-        <td style="background-color: #33CCCC; font-family: 'Gill Sans MT'; font-size: medium; font-weight: bolder; color: #CC00CC;">
+        <td style="background-color: #FFFFFF; font-family: 'Gill Sans MT'; font-size: medium; font-weight: bolder; color: #CC00CC;">
 
             Phone: (502) 417-8179<br />
             <br />
@@ -169,5 +213,22 @@
         </tr>
 
     </table>
+    <table class="auto-style20">
+            <tr style ="width: 1500px">
+                <td>
+            <div id="footer" class="auto-style21">
+			<div>
+				<div class="auto-style22">
+					<a href="https://www.facebook.com/" class="facebook">
+                        <img src="Images/facebook-2170419_640.png" class="auto-style18" /></a>
+					<a href="https://www.instagram.com" class="instagram">
+                        <img src="Images/instagram-2170420_640.png" class="auto-style17" /></a>&nbsp;
+                    <a href="https://www.twitter.com" class="twitter">
+                        <img src="Images/twitter-2170426_640.png" class="auto-style19" /></a></div>
+			</div>
+		</div>
+                </td>
+           </tr>
+        </table>
 </body>
 </html>

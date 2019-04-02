@@ -117,7 +117,7 @@
                                 <li><a href="#">Cupcakes</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Blog</a></li>
                         <li><a href="Contact.aspx">About</a></li>
                     </ul>
                 </div>
