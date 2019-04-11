@@ -59,7 +59,7 @@
 	        padding: 25px 0 25px;
         }
         .auto-style1 {
-            height: 233px;
+            height: 215px;
             width: 1500px;
         }
         .auto-style2 {
@@ -78,6 +78,7 @@
             height: 215px;
             width: 1500px;
             margin-left: 0px;
+            margin-bottom: 0px;
         }
         .auto-style8 {
             width: 500px;
@@ -146,6 +147,13 @@
             margin-top: 0px;
             margin-bottom: 0px;
         }
+        .auto-style23 {
+            width: 1492px;
+            height: 303px;
+        }
+        .auto-style24 {
+            height: 128px;
+        }
     </style>
 </head>
 <body style = "height: 625px; margin-right: 0px; width: 1500px; margin-left: 0px; margin-top: 0px; background-color: #FFFFFF; ">
@@ -164,7 +172,6 @@
                             <ul>
                                 <li><a href="#">Cakes</a></li>
                                 <li><a href="#">Cupcakes</a></li>
-                                <li><a href="#">Treats</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Blog</a></li>
@@ -181,15 +188,26 @@
         </tr>
         </table>
     </form>
-    <table class="auto-style9" style="background-color: #FFFFFF">
+    <table>
         <tr>
-            <td class="auto-style16" style="background-color: #FF00FF">
+            <td>
+                <div id="googleMap" style="width:100%; height:300px;">
+                    <a href="https://www.google.com/maps/place/303+E+7th+St,+Jeffersonville,+IN+47130/@38.2757137,-85.7404187,15z/data=!4m5!3m4!1s0x886972f6b0be0e07:0x61c1adb61a514133!8m2!3d38.2766316!4d-85.740821" class="map">
+                    <img src="Images/StoreMap.PNG" class="auto-style23" /></a>
+                </div>
 
             </td>
-            <td class="auto-style13" style="background-color: #FF00FF; font-size: x-large; font-family: Forte; font-weight: bolder; color: #FFFFFF;">
+        </tr>
+    </table>
+    <table class="auto-style9" style="background-color: #FFFFFF">
+        <tr>
+            <td class="auto-style16" style="background-color: #CC00CC">
+
+            </td>
+            <td class="auto-style13" style="background-color: #CC00CC; font-size: x-large; font-family: Forte; font-weight: bolder; color: #FFFFFF;">
                 
                 About Us</td>
-            <td class="auto-style12" style="background-color: #FF00FF; font-family: Forte; font-size: x-large; font-weight: bolder; color: #FFFFFF;">
+            <td class="auto-style12" style="background-color: #CC00CC; font-family: Forte; font-size: x-large; font-weight: bolder; color: #FFFFFF;">
 
                 Contact Us</td>
         </tr>
@@ -217,7 +235,7 @@
             <tr style ="width: 1500px">
                 <td>
             <div id="footer" class="auto-style21">
-			<div>
+			<div class="auto-style24">
 				<div class="auto-style22">
 					<a href="https://www.facebook.com/" class="facebook">
                         <img src="Images/facebook-2170419_640.png" class="auto-style18" /></a>
