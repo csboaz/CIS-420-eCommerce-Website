@@ -66,7 +66,7 @@
         }
         .auto-style9 {
             width: 99%;
-            height: 635px;
+            height: 280px;
             margin-top: 0px;
         }
         .auto-style10 {
@@ -78,7 +78,8 @@
             width: 23%;
         }
         .auto-style12 {
-            height: 398px;
+            height: 256px;
+            text-align: center;
         }
         #footer {
 	        background-color: #CC00CC;
@@ -96,7 +97,7 @@
         </style>
     
     </head>
-<body style = " height: 849px; width: 1505px; margin-left: 0px; margin-top: 0px;">
+<body style = " height: 897px; width: 1505px; margin-left: 0px; margin-top: 0px; margin-bottom: 0px;">
    
 
     <form id="form1" runat="server" style="background-color: #FFFFFF">
@@ -136,43 +137,14 @@
     <table class="auto-style9">
         <tr>
             <td class="auto-style12" style="background-color: #FFFFFF">
+                <asp:Button ID="Button1" runat="server" BackColor="#CC0099" BorderColor="#CC0099" ForeColor="White" Text="&lt;&lt;&lt;" OnClick="Button1_Click" />
+                <asp:Image ID="Image1" runat="server" height="256px" Width="250px" ImageUrl="~/Images/The Beatles Cake.jpg"/>
+                <asp:Image ID="Image2" runat="server" height="256px" Width="250px" ImageUrl="~/Images/oreo cupcakes.jpg" CssClass="auto-style21"/>
+                <asp:Image ID="Image3" runat="server" height="256px" Width="250px" ImageUrl="~/Images/minion cupcakes.jpg" CssClass="auto-style23"/>
+                <asp:Image ID="Image4" runat="server" height="256px" Width="250px" ImageUrl="~/Images/dolphincake.jpg" CssClass="auto-style22"/>
+                <asp:Image ID="Image5" runat="server" height="256px" Width="250px" ImageUrl="~/Images/Louisville Cake.jpg"/>
+                <asp:Button ID="Button2" runat="server" BackColor="#CC0099" BorderColor="#CC0099" ForeColor="White" Text="&gt;&gt;&gt;" OnClick="Button2_Click" />
              <style>   
-            #sliderbox{
-            position: relative;
-            width:400px; 
-            animation-name: slideranimation;
-            animation-duration: 10s; 
-            }
-        #sliderbox img{
-            float: left;
-        }
-@keyframes slideranimation{
-    0%{
-        left: 0px;
-    }
-    20% /* 4second */
-    {
-        left: 0px;
-    }
-    25% /* 5 second */
-    {
-        left: -800px;
-    }
-    45% /* 9 second */ {
-        left: -800px;
-    }
-    50% /* 10 second */
-    {
-        left: -1600px; 
-    }
-
-
-}
-                 .auto-style14 {
-                     width: 395px;
-                     height: 298px;
-                     margin-right: 0px;
-                 }
                  .auto-style15 {
                      width: 86px;
                      height: 80px;
@@ -199,16 +171,35 @@
                      width: 100%;
                      height: 180px;
                  }
+                 .auto-style20 {
+                     height: 102px;
+                 }
+                 .auto-style21 {
+                     margin-left: 10px;
+                 }
+                 .auto-style22 {
+                     margin-left: 10px;
+                     margin-right: 10px;
+                 }
+                 .auto-style23 {
+                     margin-left: 10px;
+                     margin-right: 5px;
+                 }
+                 .auto-style24 {
+                     margin-bottom: 0px;
+                 }
                  </style>
-    <div id="container" style="background-color: #FFFFFF">
-        <div id="sliderbox">
-            <img src="Images/birthdaycake.jpg" class="auto-style14"/>
-            <img src="Images/camouflagecake.jpg" class="auto-style14"/>
-        </div>
-      </div> 
-
+                </td>
         </tr>
     </table>
+        <table>
+            <tr>
+                <td style ="height: 400px; width: 1500px">
+                    
+                </td>
+            </tr>
+        </table>
+
         <table class="auto-style18">
             <tr style ="width: 1500px">
                 <td>
